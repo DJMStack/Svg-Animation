@@ -14,7 +14,8 @@
      left: 50%;
      top:50%;
      transform: translate(-50%, -50%);
-     animation: fill .5s ease forwards 3s;
+     animation: .5s ease forwards 3s;
+     animation-name: fill;
  }
 
  #logo path:nth-child(1){
@@ -89,6 +90,7 @@ stroke-dashoffset: 515px;
 animation: line-anim 2s ease forwards 3.2s;
 }
 
+
 @keyframes line-anim{
     to{
         stroke-dashoffset: 0;
@@ -99,7 +101,7 @@ animation: line-anim 2s ease forwards 3.2s;
             fill:transparent;
         }
         to{
-            fill: red;
+            fill: #00D1FF;
         }
         
     }
