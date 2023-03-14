@@ -99,7 +99,7 @@ animation: line-anim 2s ease forwards 3.2s;
             fill:transparent;
         }
         to{
-            fill: #00D1FF;
+            fill: red;
         }
         
     }
